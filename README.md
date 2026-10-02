@@ -2,62 +2,24 @@
 
 ### Personalised AI Learning for Every Learner
 
-EduAdapt is an AI-powered adaptive learning platform designed to make digital learning more personalised, accessible, and engaging for learners with different learning needs, including dyslexia, ADHD, attention difficulties, and varied learning preferences.
+EduAdapt is an AI-powered personalised learning platform that adapts educational content based on a learner's interaction, assessment performance, and learning preferences.
 
-Instead of presenting the same content in the same format to every learner, EduAdapt adapts the learning experience based on learner interaction, assessment performance, and preferred ways of consuming information.
+Traditional learning systems often provide the same content and learning experience to every student. EduAdapt aims to make learning more personalised by allowing learners to interact with study materials, explore content in different formats, take assessments, and track their progress.
 
-> EduAdapt supports learning preferences and accessibility. It is not a medical diagnostic tool.
-
----
+The platform combines content processing, adaptive learning, assessments, interactive learning tools, and progress tracking to create a more flexible and engaging learning experience.
 
 ## 💡 Project Overview
 
-Traditional digital learning platforms generally provide the same content and learning structure to every student. This can make it difficult for learners who need shorter explanations, better content organisation, different presentation formats, or additional focus support.
+EduAdapt allows learners to:
 
-EduAdapt addresses this challenge by providing an adaptive learning experience where learners can:
+- Upload and process learning materials
+- Access structured and simplified learning content
+- Explore concepts through different learning formats
+- Take quizzes and assessments
+- Track learning progress
+- Interact with personalised learning assistance
 
-- Upload or provide learning material
-- Process textbook content
-- Learn through simplified and structured content
-- Listen to audio-based explanations
-- Explore concepts through interactive mind maps
-- Take quick recall quizzes
-- Use focus-support features
-- Track learning progress and performance
-
-The platform is designed around the idea:
-
-**"The learning experience should adapt to the learner."**
-
----
-
-## ✨ Key Features
-
-### 📚 Adaptive Learning
-Transforms learning material into a more structured and personalised learning experience.
-
-### 📄 PDF, Image and Text Processing
-Supports learning content through PDF, image/OCR and pasted-text input.
-
-### 🧠 Personalised Content
-Provides adaptive summaries, concept chunks and learner-friendly explanations.
-
-### 🔊 Audio Learning
-Provides audio playback to support learners who prefer listening.
-
-### 🗺️ Interactive Mind Maps
-Helps learners understand relationships between concepts visually.
-
-### 📝 Quick Recall Quizzes
-Provides lightweight assessments to check understanding.
-
-### ⏱️ Focus Support
-Includes focus breaks and interaction features to support sustained learning.
-
-### 📊 Progress Tracking
-Shows learning-format usage and quiz-related insights.
-
----
+The core idea is to move from a **one-size-fits-all learning model** toward a more **personalised learning experience**.
 
 ## 🛠️ Technologies Used
 
@@ -72,34 +34,28 @@ Shows learning-format usage and quiz-related insights.
 - Nitro
 
 ### AI / Intelligent Features
-- Adaptive learning engine
+- Adaptive learning
+- Content processing
+- Personalised learning assistance
 - Learner interaction analysis
-- Personalised content adaptation
 
-### Document & Data Processing
+### Supporting Technologies
 - Tesseract.js
 - PDF.js
 - Zod
-
-### Visualisation
 - Recharts
-- Interactive UI components
 
 ### Database / Cloud
 - Supabase
-
----
 
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
 
-Make sure you have:
-
 - Node.js 20+
 - npm
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/srilekha-97/Buildwithai.git
