@@ -1,0 +1,8 @@
+- [x] Fix errors
+- [x] Streaks, quotes, login/account
+- [x] Global reading controls
+- [x] Weekly report (student+parent)
+- [x] Homework reminders
+- [x] AI help chat
+- [x] Pictures + nav
+- [ ] Rename to EduAdapt, reframe as personalised AI tutor (remove dyslexia/ADHD/neurodiverse wording)

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE588" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#997A15" />
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="100" height="100" rx="24" fill="#0C0D12" />
+  <rect x="2" y="2" width="96" height="96" rx="22" stroke="url(#goldGrad)" stroke-width="2" stroke-opacity="0.35" />
+  
+  <!-- Outer Adaptive Neural Loop -->
+  <circle cx="50" cy="50" r="34" stroke="url(#goldGrad)" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round" opacity="0.6" />
+  
+  <!-- Stylized EduAdapt "E" & Delta/Adaptive Node -->
+  <path d="M34 28 H66 C70 28 72 31 70 35 L62 45 C60 48 57 49 53 49 H34" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34 50 H54 C58 50 61 52 61 55 C61 58 58 60 54 60 H34" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34 60 H56 C60 60 63 62 65 65 L70 72 C71 74 69 76 66 76 H34" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M34 26 V76" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Adaptive Center Spark -->
+  <circle cx="72" cy="50" r="4.5" fill="url(#goldGlow)" filter="url(#glow)" />
+  <circle cx="72" cy="50" r="2.5" fill="#FFFFFF" />
+</svg>
