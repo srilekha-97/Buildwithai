@@ -1,36 +1,106 @@
-# EchoLearn
+# EduAdapt
 
-EchoLearn is an adaptive learning companion that reshapes study material around a learner's reading, focus, sequencing, visual, and chunking preferences. It identifies preferences and areas of difficulty; it does not provide medical diagnoses.
+### Personalised AI Learning for Every Learner
 
-## Run locally
+EduAdapt is an AI-powered adaptive learning platform designed to make digital learning more personalised, accessible, and engaging for learners with different learning needs, including dyslexia, ADHD, attention difficulties, and varied learning preferences.
 
-You need Node.js 20+ and npm (or Bun).
+Instead of presenting the same content in the same format to every learner, EduAdapt adapts the learning experience based on learner interaction, assessment performance, and preferred ways of consuming information.
 
-```sh
-npm i
-npm run dev
-```
+> EduAdapt supports learning preferences and accessibility. It is not a medical diagnostic tool.
 
-Open `http://localhost:8080` in your browser. The included demo works without an API key.
+---
 
-## Optional AI adaptation
+## 💡 Project Overview
 
-Copy `.env.example` to `.env.local` and add a supported key. Without one, EchoLearn automatically uses its local demo adaptation engine.
+Traditional digital learning platforms generally provide the same content and learning structure to every student. This can make it difficult for learners who need shorter explanations, better content organisation, different presentation formats, or additional focus support.
 
-## Two-minute demo
+EduAdapt addresses this challenge by providing an adaptive learning experience where learners can:
 
-1. Open the home page and choose **Explore Demo**.
-2. Pick either Photosynthesis or the Indian Independence Movement.
-3. Switch among Simplified Text, Listen, Mind Map, and Quick Recall Quiz.
-4. Open the reading toolbar to change text size, spacing, density, font, or theme.
-5. Visit Progress to see learning-format and quiz insights.
+- Upload or provide learning material
+- Process textbook content
+- Learn through simplified and structured content
+- Listen to audio-based explanations
+- Explore concepts through interactive mind maps
+- Take quick recall quizzes
+- Use focus-support features
+- Track learning progress and performance
 
-## Main features
+The platform is designed around the idea:
 
-- Non-diagnostic learning-preference assessment
-- PDF, image OCR, and pasted-text input
-- Adaptive summaries and concept chunks
-- Audio playback, interactive mind maps, quizzes, and focus breaks
-- Local browser persistence for the MVP
+**"The learning experience should adapt to the learner."**
 
-Built with TanStack Start, React, TypeScript, Tailwind CSS, Tesseract.js, PDF.js, and Recharts.
+---
+
+## ✨ Key Features
+
+### 📚 Adaptive Learning
+Transforms learning material into a more structured and personalised learning experience.
+
+### 📄 PDF, Image and Text Processing
+Supports learning content through PDF, image/OCR and pasted-text input.
+
+### 🧠 Personalised Content
+Provides adaptive summaries, concept chunks and learner-friendly explanations.
+
+### 🔊 Audio Learning
+Provides audio playback to support learners who prefer listening.
+
+### 🗺️ Interactive Mind Maps
+Helps learners understand relationships between concepts visually.
+
+### 📝 Quick Recall Quizzes
+Provides lightweight assessments to check understanding.
+
+### ⏱️ Focus Support
+Includes focus breaks and interaction features to support sustained learning.
+
+### 📊 Progress Tracking
+Shows learning-format usage and quiz-related insights.
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Application Framework
+- TanStack Start
+- Nitro
+
+### AI / Intelligent Features
+- Adaptive learning engine
+- Learner interaction analysis
+- Personalised content adaptation
+
+### Document & Data Processing
+- Tesseract.js
+- PDF.js
+- Zod
+
+### Visualisation
+- Recharts
+- Interactive UI components
+
+### Database / Cloud
+- Supabase
+
+---
+
+## ⚙️ Setup & Installation
+
+### Prerequisites
+
+Make sure you have:
+
+- Node.js 20+
+- npm
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/srilekha-97/Buildwithai.git
+cd Buildwithai
